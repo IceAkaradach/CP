@@ -222,13 +222,13 @@
             // 5. เลือกประเภท 'Web app', ตั้งค่า 'Execute as' เป็น 'Me', และ 'Who has access' เป็น 'Anyone'.
             // 6. คลิก 'Deploy' แล้วคัดลอก 'Web app URL' ที่ได้
             // 7. วาง URL นั้นที่นี่:
-            const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec';
+            const https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec = 'https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec';
             const SPREADSHEET_ID = '1D8KaFDWlF_7BD16E49DHmDj6jSrlD8ehg8TU3hsjKgk';
 
             // Function to fetch all data from Apps Script on page load
             async function fetchAllData() {
                 try {
-                    const response = await fetch(APPS_SCRIPT_URL + '?action=getData');
+                    const response = await fetch(https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec + '?action=getData');
                     const result = await response.json();
                     
                     if (result.success) {
@@ -432,7 +432,7 @@
                 });
 
                 try {
-                    const response = await fetch(APPS_SCRIPT_URL, {
+                    const response = await fetch(https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -474,7 +474,7 @@
                 dataMessage.classList.add('hidden');
                 
                 try {
-                    const response = await fetch(APPS_SCRIPT_URL + '?action=getData');
+                    const response = await fetch(https://script.google.com/macros/s/AKfycbySAbkMKbZ6RzmgdpjDagkZgsuoSjFn4b3JHmd3rhHuy6juKL1TzyTFHzuVJZapww/exec + '?action=getData');
                     const result = await response.json();
                     
                     if (result.success) {
@@ -515,3 +515,4 @@
     </script>
 </body>
 </html>
+
